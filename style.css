@@ -104,29 +104,11 @@ body{
 
 }
 
-@media (max-width: 768px) {
-    .mybtn {
-        height: auto;
-        padding: 1rem;
-        font-size: 1rem;
-    }
-
-    .btn {
-        font-size: 1rem;
-        width: 80%;
-    }
-}
-
-@media (max-width: 480px) {
-    .mybtn {
-        font-size: 0.9rem;
-        padding: 0.8rem;
-    }
-
-    .btn {
-        font-size: 0.9rem;
-        width: 100%;
-    }
+.btn:active{
+    background-color: #3e1c9a;
+    color: white;
+    transform: translateY(4px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .row{
