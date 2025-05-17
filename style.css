@@ -65,51 +65,36 @@ body{
     padding-top: o.5rem;
 }
 
-.mybtn{
-    background-color: #a795f6;
-    color: white;
-    height: 4.5rem;
-    width: 40rem;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+.mybtn {
+  background-color: #a795f6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
 
-    font-size: 1rem;
-    cursor: pointer;
-    transition: 0.3s;
-    text-align: center;
-    text-align: center;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 4rem;
-                               
-   
-}
-.btn{
-   background-color: chartreuse;
-   font-size: 1.5rem;
-   height: 3rem;
-   width: 7rem;
-   border-radius: 1rem;
-   font-weight: 650;
-   margin: 0.13rem;
-   transition: 0.5s;
-   border: none;
-}
-.btn:hover{
-    background-color: #3e1c9a;
-    color: white;
-
+  width: 90%;
+  max-width: 40rem;
+  margin: 2rem auto;
+  box-sizing: border-box;
 }
 
-.btn:active{
-    background-color: #3e1c9a;
-    color: white;
-    transform: translateY(4px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+.btn {
+  background-color: chartreuse;
+  font-size: 1.2rem;
+  height: 3rem;
+  min-width: 6rem;
+  padding: 0 1rem;
+  border-radius: 1rem;
+  font-weight: 650;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
 }
+
 
 .row{
     display: -ms-flexbox;
