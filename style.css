@@ -106,7 +106,7 @@ body{
 
 @media screen  and (max-width: 800px) {
     .mybtn{
-       
+       padding-top: 100px;
         flex: 50%;
         height: 10rem;
         max-width: 50%;
