@@ -104,21 +104,28 @@ body{
 
 }
 
-@media screen  and (max-width: 800px) {
-    .mybtn{
-       padding-top: 100px;
-        flex: 50%;
-        height: 10rem;
-        max-width: 50%;
+@media (max-width: 768px) {
+    .mybtn {
+        height: auto;
+        padding: 1rem;
+        font-size: 1rem;
     }
-    
+
+    .btn {
+        font-size: 1rem;
+        width: 80%;
+    }
 }
-@media screen  and (max-width: 600px) {
-    .mybtn{
-        
-         height: 10rem;
-        flex: 100%;
-        max-width: 100%;
+
+@media (max-width: 480px) {
+    .mybtn {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        width: 100%;
     }
 }
 
