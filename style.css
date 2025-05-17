@@ -108,6 +108,7 @@ body{
     .mybtn{
         -ms-flex:50%;
         flex: 50%;
+        height: 10rem;
         max-width: 50%;
     }
     
