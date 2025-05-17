@@ -106,8 +106,7 @@ body{
 
 @media screen  and (max-width: 800px) {
     .mybtn{
-        -ms-flex:50%;
-        flex: 50%;
+  
         height: 10rem;
         max-width: 50%;
     }
@@ -115,8 +114,7 @@ body{
 }
 @media screen  and (max-width: 600px) {
     .mybtn{
-        -ms-flex:100%;
-        flex: 100%;
+        height: 10rem;
         max-width: 100%;
     }
 }
