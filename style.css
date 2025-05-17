@@ -103,6 +103,23 @@ body{
     color: white;
 
 }
+
+@media screen  and (max-width: 800px) {
+    .mybtn{
+        -ms-flex:50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+    
+}
+@media screen  and (max-width: 600px) {
+    .mybtn{
+        -ms-flex:100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
 .row{
     display: -ms-flexbox;
     display: flex;
